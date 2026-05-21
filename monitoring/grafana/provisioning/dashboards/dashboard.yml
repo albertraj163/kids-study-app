@@ -1,0 +1,11 @@
+# Grafana dashboard provider - loads JSON dashboards from this folder
+apiVersion: 1
+providers:
+  - name: 'Kids Study'
+    orgId: 1
+    folder: ''
+    type: file
+    disableDeletion: false
+    editable: true
+    options:
+      path: /etc/grafana/provisioning/dashboards

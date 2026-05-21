@@ -1,0 +1,22 @@
+# Environment files (never commit secrets)
+.env
+
+# Node.js dependencies
+node_modules/
+
+# Test coverage output
+coverage/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# Docker local registry data (optional volume)
+registry-data/
